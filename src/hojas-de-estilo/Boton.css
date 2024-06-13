@@ -1,0 +1,23 @@
+.boton-cotenedor {
+height: 83px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 38px;
+flex: 1 1;
+background-color: #1b1b32;
+color: white;
+border-radius: 25px;
+border: 2px solid white;
+margin: 4px;
+cursor: pointer;
+user-select: none; /* te permite que el texto no se pueda seleccionar con el raton*/
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.boton-cotenedor:hover { background-color: #5a01a7} /*pseudo clase es un estado especial del boton cuando el mouse esta sobre el boton pero sin hacer clic*/
+.operador:hover {background-color: #ff6600;}
